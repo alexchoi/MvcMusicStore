@@ -12,6 +12,7 @@ namespace MvcMusicStore.Models {
 
         public const string CartSessionKey = "CartId";
 
+        // Get cart for the current browser sesstion
         public static ShoppingCart GetCart(HttpContextBase context) {
             var cart = new ShoppingCart();
             cart.ShoppingCartId = cart.GetCartId(context);

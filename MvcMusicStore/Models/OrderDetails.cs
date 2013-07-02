@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MvcMusicStore.Models {
     public class OrderDetail {
-        public int OrderDetailsId { get; set; }
+        public int OrderDetailId { get; set; }
         public int OrderId { get; set; }
         public int AlbumId { get; set; }
         public int Quantity { get; set; }
